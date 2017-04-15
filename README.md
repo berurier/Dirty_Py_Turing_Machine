@@ -9,6 +9,12 @@ I've got a school project where we've got to implement functions on an existing 
 
 Original Project : http://www-verimag.imag.fr/~perin/enseignement/L3/mcal/projet/
 
+# How does it works ?
+
+"python3 main.py"
+
+Everything is hardcoded in the main ^^
+
 # It's full of bug :'(
 
 => The Transition parser is taking Ocaml implementation of transitions, and is not working for every type of transition.
