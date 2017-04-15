@@ -114,7 +114,7 @@ class Etat :
 							self.run(states,num)
 							self.run_bin(states,num)
 						print(bcolors.OKBLUE,"Bande symbole n",num+1,"Bande Gauche : ",bcolors.FAIL,self.machine.bande[num].l,bcolors.OKBLUE," Tete : ",bcolors.FAIL,self.machine.bande[num].h,bcolors.OKBLUE," Bande Droite :",bcolors.FAIL,self.machine.bande[num].r)
-						print(bcolors.OKBLUE,"Bande symbole n",num+1,"Bande Gauche : ",bcolors.FAIL,self.machine.bandebin[num].l,bcolors.OKBLUE," Tete : ",bcolors.FAIL,self.machine.bandebin[num].h,bcolors.OKBLUE," Bande Droite :",bcolors.FAIL,self.machine.bandebin[num].r)
+						print(bcolors.OKBLUE,"Bande binary n",num+1,"Bande Gauche : ",bcolors.FAIL,self.machine.bandebin[num].l,bcolors.OKBLUE," Tete : ",bcolors.FAIL,self.machine.bandebin[num].h,bcolors.OKBLUE," Bande Droite :",bcolors.FAIL,self.machine.bandebin[num].r)
 
 					self.courant = self.liste_trans.dep[states]
 				multi_etat_trouve = [False]*n
